@@ -23,15 +23,15 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <TbAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>3+ Years Working Experience</small>
+              <h5>Experience and Internships</h5>
+              <small>2 Internship </small>
             </article>
 
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>300+ abc</small>
+              <h5>Certification Course</h5>
+              <small>10+ Certification Course</small>
             </article>
 
 
@@ -42,7 +42,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor sed corrupti, voluptatibus optio eveniet magnam debitis in neque molestias adipisci tenetur non dolorum ducimus amet. Aut molestiae amet sunt?</p>
+          <p>Hello there! I'm Arun Acharya, a passionate and dedicated fresher developer with a strong desire to dive headfirst into the dynamic world of Web development. With a solid foundation in Web Development principles and a thirst for continuous learning, I am committed to bringing innovation and creativity to every project I tackle.</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
