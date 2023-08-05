@@ -4,8 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+
 
 const data = [
   {
@@ -13,47 +12,54 @@ const data = [
     image: IMG1,
     title: 'Text Editor Website',
     github: 'https://github.com/arunacharya1603/Text-analyzer-app',
-    demo: 'https://26cszt-3000.csb.app/'
+    demo: 'https://csb-ktttlo-dpvwdwyry-arunacharya1603.vercel.app/'
   },
+
+  // {
+  //   id: 2,
+  //   image: IMG2,
+  //   title: 'Doctor Search Website',
+  //   github: 'https://github.com/arunacharya1603/Doctoryy',
+  //   demo: 'https://github.com/arunacharya1603/Doctoryy'
+  // },
 
   {
     id: 2,
     image: IMG2,
-    title: 'Doctor Search Website',
-    github: 'https://github.com/arunacharya1603/Doctoryy',
-    demo: 'https://github.com/arunacharya1603/Doctoryy'
-  },
-
-  {
-    id: 3,
-    image: IMG3,
     title: 'Calculator',
     github: 'https://github.com/arunacharya1603/Calculator',
     demo: ' https://arunacharya1603.github.io/Calculator/'
   },
 
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Medical Shop Billing System using tkinter(python)',
-    github: 'https://github.com/arunacharya1603/Arun_Project/blob/main/ArunAcharya(143)DBMSProject.py',
-    demo: 'https://github.com/arunacharya1603/Arun_Project/blob/main/ArunAcharya(143)DBMSProject.py'
-  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Medical Shop Billing System using tkinter(python)',
+  //   github: 'https://github.com/arunacharya1603/Arun_Project/blob/main/ArunAcharya(143)DBMSProject.py',
+  //   demo: 'https://github.com/arunacharya1603/Arun_Project/blob/main/ArunAcharya(143)DBMSProject.py'
+  // },
+
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'Hindu News Web App using newsapi',
+  //   github: 'https://github.com/arunacharya1603/News-app',
+  //   demo: 'https://github.com/arunacharya1603/News-app'
+  // },
 
   {
-    id: 5,
-    image: IMG5,
-    title: 'Hindu News Web App using newsapi',
-    github: 'https://github.com/arunacharya1603/News-app',
-    demo: 'https://github.com/arunacharya1603/News-app'
-  },
-
-  {
-    id: 6,
-    image: IMG6,
+    id: 3,
+    image: IMG3,
     title: 'to-do list(simple)',
     github: 'https://github.com/arunacharya1603/OIBSIP_6',
     demo: 'https://arunacharya1603.github.io/OIBSIP_6/'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Portfolio',
+    github: 'https://github.com/arunacharya1603/portfolio',
+    demo: 'portfolio-phi-eight-47.vercel.app'
   },
 
 ]
