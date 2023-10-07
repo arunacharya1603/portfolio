@@ -28,8 +28,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Calculator',
-    github: 'https://github.com/arunacharya1603/Calculator',
-    demo: ' https://arunacharya1603.github.io/Calculator/'
+    github: 'https://arunacharya1603.github.io/OIBSIP_4/',
+    demo: ' https://arunacharya1603.github.io/OIBSIP_4/'
   },
 
   // {
