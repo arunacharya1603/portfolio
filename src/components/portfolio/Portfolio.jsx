@@ -5,40 +5,57 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.jpg'
 
 
 const data = [
+  
+
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Shopping Website(Front-End Project)',
+    github: 'https://github.com/arunacharya1603/shop',
+    demo: 'shoppingcart-pink-three.vercel.app'
+  },
+  
+  
+  
   {
     id: 1,
     image: IMG1,
     title: 'Text Editor Website',
     github: 'https://github.com/arunacharya1603/Text-analyzer-app',
-    demo: 'https://csb-ktttlo.vercel.app/'
+    demo: 'https://csb-ktttlo-dpvwdwyry-arunacharya1603.vercel.app/'
   },
-
-  // {
-  //   id: 2,
-  //   image: IMG2,
-  //   title: 'Doctor Search Website',
-  //   github: 'https://github.com/arunacharya1603/Doctoryy',
-  //   demo: 'https://github.com/arunacharya1603/Doctoryy'
-  // },
 
   {
-    id: 2,
-    image: IMG2,
-    title: 'Calculator',
-    github: 'https://arunacharya1603.github.io/OIBSIP_4/',
-    demo: ' https://arunacharya1603.github.io/OIBSIP_4/'
+    id: 5,
+    image: IMG5,
+    title: 'Portfolio',
+    github: 'https://github.com/arunacharya1603/portfolio',
+    demo: 'portfolio-phi-eight-47.vercel.app'
   },
 
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: 'Medical Shop Billing System using tkinter(python)',
-  //   github: 'https://github.com/arunacharya1603/Arun_Project/blob/main/ArunAcharya(143)DBMSProject.py',
-  //   demo: 'https://github.com/arunacharya1603/Arun_Project/blob/main/ArunAcharya(143)DBMSProject.py'
-  // },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Weather App (Weather api)',
+    github: 'https://github.com/arunacharya1603/Weather_app',
+    demo: 'https://weather-app-1zvq.vercel.app/'
+  },
+
+ 
+
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Calculator',
+    github: 'https://github.com/arunacharya1603/Calculator',
+    demo: ' https://arunacharya1603.github.io/Calculator/'
+  },
+
+  
 
   // {
   //   id: 5,
@@ -49,26 +66,13 @@ const data = [
   // },
 
   {
-    id: 3,
-    image: IMG3,
+    id: 4,
+    image: IMG4,
     title: 'to-do list(simple)',
     github: 'https://github.com/arunacharya1603/OIBSIP_6',
     demo: 'https://arunacharya1603.github.io/OIBSIP_6/'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Portfolio',
-    github: 'https://github.com/arunacharya1603/portfolio',
-    demo: 'portfolio-phi-eight-47.vercel.app'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Weather App',
-    github: 'https://github.com/arunacharya1603/Weather_app',
-    demo: 'https://weather-app-1zvq.vercel.app/'
-  },
+  
 
 ]
 
