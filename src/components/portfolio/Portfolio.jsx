@@ -18,6 +18,31 @@ const data = [
     github: 'https://github.com/arunacharya1603/shop',
     demo: 'shoppingcart-pink-three.vercel.app'
   },
+
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Blog-App (Front-end)',
+    github: 'https://github.com/arunacharya1603/Blog-app-front-end',
+    demo: 'blog-app-front-end-neon.vercel.app'
+  },
+
+   {
+    id: 5,
+    image: IMG5,
+    title: 'Portfolio',
+    github: 'https://github.com/arunacharya1603/portfolio',
+    demo: 'portfolio-phi-eight-47.vercel.app'
+  },
+
+
+    {
+    id: 4,
+    image: IMG4,
+    title: 'Weather App (Weather api)',
+    github: 'https://github.com/arunacharya1603/Weather_app',
+    demo: 'https://weather-app-1zvq.vercel.app/'
+  },
   
   
   
@@ -29,23 +54,6 @@ const data = [
     demo: 'https://csb-ktttlo-dpvwdwyry-arunacharya1603.vercel.app/'
   },
 
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Portfolio',
-    github: 'https://github.com/arunacharya1603/portfolio',
-    demo: 'portfolio-phi-eight-47.vercel.app'
-  },
-
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Weather App (Weather api)',
-    github: 'https://github.com/arunacharya1603/Weather_app',
-    demo: 'https://weather-app-1zvq.vercel.app/'
-  },
-
- 
 
   {
     id: 3,
@@ -55,15 +63,6 @@ const data = [
     demo: ' https://arunacharya1603.github.io/Calculator/'
   },
 
-  
-
-  // {
-  //   id: 5,
-  //   image: IMG5,
-  //   title: 'Hindu News Web App using newsapi',
-  //   github: 'https://github.com/arunacharya1603/News-app',
-  //   demo: 'https://github.com/arunacharya1603/News-app'
-  // },
 
   {
     id: 4,
