@@ -6,6 +6,8 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/git.jpg'
+
 
 
 const data = [
@@ -43,7 +45,14 @@ const data = [
     github: 'https://github.com/arunacharya1603/Weather_app',
     demo: 'https://weather-app-1zvq.vercel.app/'
   },
-  
+
+    {
+    id: 5,
+    image: IMG7,
+    title: 'Github-UserProfile (using Github API)',
+    github: 'https://github.com/arunacharya1603/Github-UserProfile-project',
+    demo: 'https://github-user-profile-project.vercel.app/'
+  },
   
   
   {
