@@ -13,28 +13,26 @@ import IMG7 from '../../assets/git.jpg'
 const data = [
   
 
-  {
+ {
     id: 1,
     image: IMG2,
     title: 'Shopping Website(Front-End Project)',
     github: 'https://github.com/arunacharya1603/shop',
-    demo: 'shoppingcart-pink-three.vercel.app'
+    demo: 'https://shoppingcart-pink-three.vercel.app' // Fixed URL
   },
-
   {
     id: 2,
     image: IMG5,
     title: 'Blog-App (Front-end)',
     github: 'https://github.com/arunacharya1603/Blog-app-front-end',
-    demo: 'blog-app-front-end-neon.vercel.app'
+    demo: 'https://blog-app-front-end-neon.vercel.app' // Fixed URL
   },
-
-   {
+  {
     id: 3,
     image: IMG5,
     title: 'Portfolio',
     github: 'https://github.com/arunacharya1603/portfolio',
-    demo: 'portfolio-phi-eight-47.vercel.app'
+    demo: 'https://portfolio-phi-eight-47.vercel.app' // Fixed URL
   },
 
 
