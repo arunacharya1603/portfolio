@@ -14,7 +14,7 @@ const data = [
   
 
   {
-    id: 2,
+    id: 1,
     image: IMG2,
     title: 'Shopping Website(Front-End Project)',
     github: 'https://github.com/arunacharya1603/shop',
@@ -22,7 +22,7 @@ const data = [
   },
 
   {
-    id: 5,
+    id: 2,
     image: IMG5,
     title: 'Blog-App (Front-end)',
     github: 'https://github.com/arunacharya1603/Blog-app-front-end',
@@ -30,7 +30,7 @@ const data = [
   },
 
    {
-    id: 5,
+    id: 3,
     image: IMG5,
     title: 'Portfolio',
     github: 'https://github.com/arunacharya1603/portfolio',
@@ -56,7 +56,7 @@ const data = [
   
   
   {
-    id: 1,
+    id: 6,
     image: IMG1,
     title: 'Text Editor Website',
     github: 'https://github.com/arunacharya1603/Text-analyzer-app',
@@ -65,7 +65,7 @@ const data = [
 
 
   {
-    id: 3,
+    id: 7,
     image: IMG3,
     title: 'Calculator',
     github: 'https://github.com/arunacharya1603/Calculator',
@@ -74,7 +74,7 @@ const data = [
 
 
   {
-    id: 4,
+    id: 8,
     image: IMG4,
     title: 'to-do list(simple)',
     github: 'https://github.com/arunacharya1603/OIBSIP_6',
