@@ -7,7 +7,7 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 import IMG7 from '../../assets/git.jpg'
-import IMG8 from '../../assets/blog.jpg'
+// import IMG8 from '../../assets/blog.jpg'
 
 
 
@@ -15,31 +15,31 @@ const data = [
   
 
 
-  {
-    id: 1,
-    image: IMG8,
-    title: 'Blog-app (MERN)',
-    github: 'https://github.com/arunacharya1603/Blog-app',
-    demo: 'https://meek-eclair-b74a61.netlify.app' // Fixed URL
-  },
+  // {
+  //   id: 1,
+  //   image: IMG8,
+  //   title: 'Blog-app (MERN)',
+  //   github: 'https://github.com/arunacharya1603/Blog-app',
+  //   demo: 'https://meek-eclair-b74a61.netlify.app' // Fixed URL
+  // },
 
   
  {
-    id: 2,
+    id: 1,
     image: IMG2,
     title: 'Shopping Website(Front-End Project)',
     github: 'https://github.com/arunacharya1603/shop',
     demo: 'https://shoppingcart-pink-three.vercel.app' // Fixed URL
   },
   {
-    id: 3,
+    id: 2,
     image: IMG5,
     title: 'Blog-App (Front-end)',
     github: 'https://github.com/arunacharya1603/Blog-app-front-end',
     demo: 'https://blog-app-front-end-neon.vercel.app' // Fixed URL
   },
   {
-    id: 4,
+    id: 3,
     image: IMG5,
     title: 'Portfolio',
     github: 'https://github.com/arunacharya1603/portfolio',
@@ -48,7 +48,7 @@ const data = [
 
 
     {
-    id: 5,
+    id: 4,
     image: IMG4,
     title: 'Weather App (Weather api)',
     github: 'https://github.com/arunacharya1603/Weather_app',
@@ -56,7 +56,7 @@ const data = [
   },
 
     {
-    id: 6,
+    id: 5,
     image: IMG7,
     title: 'Github-UserProfile (using Github API)',
     github: 'https://github.com/arunacharya1603/Github-UserProfile-project',
@@ -65,7 +65,7 @@ const data = [
   
   
   {
-    id: 7,
+    id: 6,
     image: IMG1,
     title: 'Text Editor Website',
     github: 'https://github.com/arunacharya1603/Text-analyzer-app',
@@ -74,7 +74,7 @@ const data = [
 
 
   {
-    id: 8,
+    id: 7,
     image: IMG3,
     title: 'Calculator',
     github: 'https://github.com/arunacharya1603/Calculator',
@@ -83,7 +83,7 @@ const data = [
 
 
   {
-    id: 9,
+    id: 8,
     image: IMG4,
     title: 'to-do list(simple)',
     github: 'https://github.com/arunacharya1603/OIBSIP_6',
