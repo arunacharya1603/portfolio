@@ -52,7 +52,7 @@ const data = [
     image: IMG4,
     title: 'Weather App (Weather api)',
     github: 'https://github.com/arunacharya1603/Weather_app',
-    demo: 'https://weather-app-1zvq.vercel.app/'
+    demo:'https://weather-app-js-project-hazel.vercel.app/'
   },
 
     {
