@@ -1,49 +1,92 @@
-.portfolio__container{
+.portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 2rem;
+    padding: 0 1rem;
 }
 
-.portfolio__item{
+.portfolio__item {
     background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 2rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.portfolio__item:hover{
+.portfolio__item:hover {
     border-color: var(--color-primary-variant);
-    background: transparent;
+    background: var(--color-bg);
+    transform: translateY(-5px);
 }
 
-.portfolio__item-image{
-    border-radius: 1.5rem;
+.portfolio__item-image {
+    border-radius: 1rem;
     overflow: hidden;
+    transition: transform 300ms ease;
 }
 
-.portfolio__item h3{
-    margin:1.2rem 0 2rem ;
+.portfolio__item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 300ms ease;
 }
 
-.portfolio__item-cta{
+.portfolio__item:hover .portfolio__item-image img {
+    transform: scale(1.1);
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 1rem;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+}
+
+.portfolio__item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+.portfolio__item-cta .btn {
+    flex: 1;
+    text-align: center;
+}
 
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .portfolio__item h3 {
+        font-size: 1rem;
+    }
+
+    .portfolio__item-cta .btn {
+        font-size: 0.9rem;
     }
 }
- 
- @media screen and (max-width: 600px) {
-    .portfolio__container{
+
+@media screen and (max-width: 600px) {
+    .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
 
+    .portfolio__item {
+        padding: 1rem;
+    }
+
+    .portfolio__item h3 {
+        font-size: 0.9rem;
+        margin: 1rem 0;
+    }
+
+    .portfolio__item-cta .btn {
+        font-size: 0.8rem;
+    }
 }

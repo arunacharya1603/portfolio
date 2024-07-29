@@ -1,13 +1,13 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
-import IMG7 from '../../assets/git.jpg'
-// import IMG8 from '../../assets/blog.jpg'
+import IMG1 from '../../assets/thinkBridge.png'
+import IMG2 from '../../assets/logo.png'
+import IMG3 from '../../assets/book-stack.png'
+import IMG4 from '../../assets/git.jpg'
+import IMG5 from '../../assets/weather.png'
+import IMG6 from '../../assets/blog.jpg'
+import IMG7 from '../../assets/shopping.png'
+import IMG8 from '../../assets/advocate.png'
 
 
 
@@ -15,79 +15,79 @@ const data = [
   
 
 
-  // {
-  //   id: 1,
-  //   image: IMG8,
-  //   title: 'Blog-app (MERN)',
-  //   github: 'https://github.com/arunacharya1603/Blog-app',
-  //   demo: 'https://meek-eclair-b74a61.netlify.app' // Fixed URL
-  // },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'ThinkBridge(Appwrite-backend-service)',
+    github: 'https://github.com/arunacharya1603/blog-appwrite',
+    demo: 'https://think-bridge.vercel.app/' // Fixed URL/ Fixed URL
+  },
 
   
  {
-    id: 1,
-    image: IMG2,
-    title: 'Shopping Website(Front-End Project)',
-    github: 'https://github.com/arunacharya1603/shop',
-    demo: 'https://shoppingcart-pink-three.vercel.app' // Fixed URL
-  },
-  {
     id: 2,
-    image: IMG5,
-    title: 'Blog-App (Front-end)',
-    github: 'https://github.com/arunacharya1603/Blog-app-front-end',
-    demo: 'https://blog-app-front-end-neon.vercel.app' // Fixed URL
+    image: IMG2,
+    title: 'reduxThunk-Food-api',
+    github: 'https://github.com/arunacharya1603/Food-Redux',
+    demo: 'https://food-redux-eight.vercel.app/' // Fixed URL
   },
   {
     id: 3,
-    image: IMG5,
-    title: 'Portfolio',
-    github: 'https://github.com/arunacharya1603/portfolio',
-    demo: 'https://portfolio-phi-eight-47.vercel.app' // Fixed URL
+    image: IMG3,
+    title: 'Google-Books-Api',
+    github: 'https://github.com/arunacharya1603/google-books-api',
+    demo: 'https://google-books-api-tawny.vercel.app/' // Fixed URL
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Github-profile(github-api)',
+    github: 'https://github.com/arunacharya1603/Github-UserProfile-project',
+    demo: 'https://weather-app-js-project-hazel.vercel.app/' // Fixed URL
   },
 
 
     {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: 'Weather App (Weather api)',
     github: 'https://github.com/arunacharya1603/Weather_app',
     demo:'https://weather-app-js-project-hazel.vercel.app/'
   },
 
     {
-    id: 5,
-    image: IMG7,
-    title: 'Github-UserProfile (using Github API)',
-    github: 'https://github.com/arunacharya1603/Github-UserProfile-project',
-    demo: 'https://github-user-profile-project.vercel.app/'
-  },
-  
-  
-  {
     id: 6,
-    image: IMG1,
-    title: 'Text Editor Website',
-    github: 'https://github.com/arunacharya1603/Text-analyzer-app',
-    demo: 'https://csb-ktttlo-dpvwdwyry-arunacharya1603.vercel.app/'
+    image: IMG6,
+    title: 'Blog-Web-app(frontend)',
+    demo: 'https://blog-app-front-end-neon.vercel.app/',
+    github: 'https://github.com/arunacharya1603/Blog-app-Front-end-'
   },
-
-
+  
+  
   {
     id: 7,
-    image: IMG3,
-    title: 'Calculator',
-    github: 'https://github.com/arunacharya1603/Calculator',
-    demo: ' https://arunacharya1603.github.io/Calculator/'
+    image: IMG7,
+    title: 'Shopping E-Commerce(frontend)',
+    github: 'https://github.com/arunacharya1603/shop',
+    demo: 'https://shoppingcart-pink-three.vercel.app/'
   },
 
 
   {
     id: 8,
-    image: IMG4,
-    title: 'to-do list(simple)',
-    github: 'https://github.com/arunacharya1603/OIBSIP_6',
-    demo: 'https://arunacharya1603.github.io/OIBSIP_6/'
+    image: IMG3,
+    title: 'CRUD Web app(Dummy)',
+    github: 'https://github.com/arunacharya1603/CRUD',
+    demo: ' https://crud-mocha.vercel.app/'
+  },
+
+
+  {
+    id: 9,
+    image: IMG8,
+    title: 'Adv. Ashwani Portfolio',
+    github: 'https://github.com/arunacharya1603/ashwani-acharya-portfolio',
+    demo: 'https://ashwani-acharya-portfolio.onrender.com/'
   },
   
 
@@ -112,8 +112,9 @@ const Portfolio = () => {
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
+                  <h3>{title}</h3>
                 </div>
-                <h3>{title}</h3>
+                
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn' target='_blank' rel="noreferrer" >Github</a>
                   <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer" >Live Demo</a>

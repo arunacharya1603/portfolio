@@ -18,6 +18,18 @@ h1:hover {
      
   }
 
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+
 .cta{
     margin-top: 2.5rem;
     display: flex;
@@ -95,6 +107,7 @@ h1:hover {
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
+    scroll-behavior: smooth;
     font-size: 0.9rem;
     font-weight: 300;
 

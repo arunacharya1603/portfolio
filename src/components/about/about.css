@@ -13,15 +13,25 @@
     place-items: center;
 }
 
-.about__me-image{
+.about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    transition: transform 300ms ease-in-out;
 }
-.about__me-image:hover{
-    transform: rotate(0deg);
+
+.about__me-image:hover img {
+    transform: scale(1.5);
+    transition: transform 300ms ease-in-out;
 }
+
+.about__me-image img {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: block;
+    transition: transform 300ms ease-in-out;
+}
+
 
 .about__cards{
     display: grid;
